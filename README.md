@@ -2,7 +2,7 @@ This repository implements the A* algorithm, a pathfinding and graph traversal a
 path between nodes in a weighted graph. The algorithm combines the strengths of Dijkstra's algorithm and 
 Greedy Best-First Search by utilizing a heuristic function that estimates the cost to reach the goal from
 the current node. This allows A* to efficiently prioritize paths that are likely to lead to the goal, 
-making it suitable for applications in navigation systems, AI, and robotics.
+making it suitable for addressing the shortest path problem solved here.
 
 The algorithm operates on a city graph represented as an adjacency list, where each node corresponds to an 
 intersection, and edges represent the connections between them with associated costs. A graphical interface
